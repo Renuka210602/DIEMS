@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Diems_Clubs</string>
+    <string name="welcome_to_student_login">Welcome to Student Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="todo">TODO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_a_member_sign_up_now">Not a member?Sign up now</string>
+    <string name="emailid">EmailId</string>
+    <string name="already_registered_login">Already Registered? Login</string>
+    <string name="todo1">TODO</string>
+    <string name="signup">SignUp</string>
+    <string name="click_here_to_login">Click Here to Login</string>
+    <string name="student_login">Student Login</string>
+    <string name="faculty_login">Faculty Login</string>
+    <string name="admin_login">Admin Login</string>
+</resources>

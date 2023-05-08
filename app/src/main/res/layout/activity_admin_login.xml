@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="253dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginRight="80dp"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/user"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="80dp"
+        android:hint="@string/password" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="213dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignStart="@+id/pass"
+        android:layout_alignEnd="@+id/pass"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/blue"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/baseline_arrow_back_24"
+        android:contentDescription="TODO" />
+</RelativeLayout>
